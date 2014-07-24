@@ -1,0 +1,8 @@
+default['fishnix-php']['session_handler'] = 'memcache'
+default['fishnix-php']['session_save_path'] = '/var/lib/php/session'
+default['fishnix-php']['memcache_session_save_path'] = 'tcp://localhost:11211?persistent=1&weight=1&timeout=1&retry_interval=15'
+default['fishnix-php']['post_max_size'] = '10M'
+default['fishnix-php']['upload_max_filesize'] = '10M'
+default['fishnix-php']['max_execution_time'] = '30'
+default['fishnix-php']['max_input_time'] = '60'
+default['fishnix-php']['memory_limit'] = '64M'
