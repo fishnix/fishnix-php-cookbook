@@ -9,6 +9,7 @@ end
 group :unit do
   gem 'berkshelf'
   gem 'chefspec', '~> 3.1'
+  gem 'chef-rewind'
 end
 
 group :integration do

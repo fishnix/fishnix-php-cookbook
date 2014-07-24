@@ -20,7 +20,7 @@
 chef_gem "chef-rewind"
 require 'chef/rewind'
 
-include_recipe 'php::ini'
+include_recipe 'php::default'
 
 unwind "template[#{node['php']['conf_dir']}/php.ini]"
 
